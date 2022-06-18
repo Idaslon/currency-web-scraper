@@ -1,8 +1,8 @@
 # Node Modules
 node_modules
 
-# Local
+# Build
 dist
 
-# Enviroment
-.env
+# Editor
+.vscode
