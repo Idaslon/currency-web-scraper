@@ -1,0 +1,26 @@
+{
+  "name": "currency-web-scraper",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Idaslon",
+    "email": "garcia.idaslon@gmail.com"
+  },
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "dev": "tsnd --respawn --transpile-only src/index.ts"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/jsdom": "^16.2.14",
+    "@types/node": "^18.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jsdom": "^19.0.0"
+  }
+}
