@@ -7,8 +7,8 @@ export function melhorCambioCrawler() {
   const baseUrl = 'https://www.melhorcambio.com/conversor-de-moeda'
 
   function formatUrl(props: MelhorCambioProps) {
-    const fromCurrency = props?.fromCurrency
-    const toCurrency = props?.toCurrency
+    const fromCurrency = props.fromCurrency
+    const toCurrency = props.toCurrency
 
     const url = `${baseUrl}/${fromCurrency}/${toCurrency}`
     return url
